@@ -6,17 +6,35 @@
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 	<!-- custom css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Mongo scraper</title>
 </head>
 <body>
-	{{{ body }}}
+	<nav>
+		<ul>
+			<li><a href= "home">Home</a></li>
+			<li><a href= "saved">Saved Articles</a></li>
+			<li><a href= "articles">Scrape new articles</a></li>
+		</ul>
+	</nav>
+	<div class="main center">
+		<!-- main title -->
+		<h1>Mongo Scraper<br>-ELLE edition-</h1>
+		<!-- sub title -->
+		<h4><i>The latest fashion news, beauty coverage,<br>celebrity style, fashion week updates</i></h4>
 
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<!-- Compiled and minified JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-	<script src="app.js"></script>
-</body>
-</html>
+		{{{ body }}}
+	</div>
+	 <footer class="center">
+    	<h5 id="hw">ELLE Mongo scraper </h5>
+  	</footer>
+
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+	</html>

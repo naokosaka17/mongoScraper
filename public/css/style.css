@@ -2,10 +2,7 @@
       font-family: 'Playfair Display SC', serif;
     }
     nav{
-      background-color: #000;
-    }
-    a: hover{
-      color: #757575;
+      background-color: #d50000;
     }
     .main {
       margin: 4px;
@@ -28,8 +25,9 @@
       color: #fff;
     }
     footer {
+      background-color: #d50000;
       display: block;
       padding: 5px;
       min-height: 100px;
-      background: #000;
+      width:100%;
     }
